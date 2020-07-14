@@ -1,0 +1,13 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <p> Sample Output : Today is : Tuesday. </p>
+        <p> Current time is:</p><p id="p1"></p>
+        <script>
+            var today = new Date();
+            var date = today.getHours()+':'+today.getMinutes()+':'+today.getSeconds();
+            document.getElementById("p1").innerHTML = date;
+         </script>
+    </body>
+</html>
