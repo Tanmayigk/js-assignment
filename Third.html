@@ -1,0 +1,17 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <p> Expected Output :</p>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <script>
+            var today = new Date();
+            var date = (today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear();
+            document.getElementById("p1").innerHTML= date;
+            var today = new Date();
+            var date = (today.getMonth()+1)+'/'+today.getDate()+'/'+today.getFullYear();
+            document.getElementById("p2").innerHTML=date;
+        </script>
+    </body>
+</html> 
